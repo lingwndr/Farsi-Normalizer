@@ -3,4 +3,4 @@ trgLine = '٪۱۲۳۴۵۶۷۸۹۰؛""پرزوصکییه۷اپثقیکتییسی�
 
 repl = str.maketrans(srcLine, trgLine)
 repl[172] = 8204 # converting Microsoft Word ZWNJ to the unicode standard ZWNJ
-corpusStringsWithBizzarePersianCharacter.translate(repl)
+corpusStringsWithBizarrePersianCharacter.translate(repl)
