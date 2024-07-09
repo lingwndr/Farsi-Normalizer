@@ -1,5 +1,6 @@
 Usage
 -----
+Copy / paste this function
 ```python
 def normalize(text):
   
@@ -9,10 +10,9 @@ def normalize(text):
   repl = str.maketrans(srcLine, trgLine)
   repl[172] = 8204 # converting Microsoft Word ZWNJ to the unicode standard ZWNJ
   return text.translate(repl)
+```
 
-usage
-
-
+```python
 >>> normalize("1 کتاب خریدم, ديدي?")
 '۱ کتاب خریدم، دیدی؟'
 ```
